@@ -5,7 +5,7 @@ Console.WriteLine("Введите первое число А.");
 int NumberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число В.");
 int NumberB = Convert.ToInt32(Console.ReadLine());
-double ahh = HomeworkVariables.PrintTheResultOfTheDivisionToTheConsole((int)NumberA, (int)NumberB);
+(int,int) ahh = HomeworkVariables.PrintTheResultOfTheDivisionToTheConsole(NumberA, NumberB);
 Console.WriteLine(ahh);
 
 
@@ -37,7 +37,7 @@ int twoNumber = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число число не равное 0.");
 int thirdNumber = Convert.ToInt32(Console.ReadLine());
 
-double add = HomeworkVariables.ЗrintЕheЫolutionЕoЕheСonsole(oneNumber, twoNumber, thirdNumber);
+double add = HomeworkVariables.PrintЕheЫolutionЕoЕheСonsole(oneNumber, twoNumber, thirdNumber);
 Console.WriteLine(add);
 
 
@@ -51,7 +51,7 @@ int X2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число Y2.");
 int Y2 = Convert.ToInt32(Console.ReadLine());
 
-string an = HomeworkVariables.straightLineEquation(X1, Y1, X2, Y2);
+string an = HomeworkVariables.StraightLineEquation(X1, Y1, X2, Y2);
 Console.WriteLine(an);
 
 
